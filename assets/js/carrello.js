@@ -121,7 +121,7 @@ function printData2() {
                             <img src="${element.img}" class="figure-img img-fluid" style="width: 200px">
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title" id="card-title-carrello">${element.nome}</h5>
+                            <h5 class="card-title card-title-carrello">${element.nome}</h5>
                             <p class="card-text">&euro;${element.prezzo}</p>
                         </div>
                     </div>`;
