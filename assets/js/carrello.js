@@ -116,7 +116,7 @@ function printData2() {
         if (carrello.length > 0) {
             carrello.map(function (element) {
                 cartHistory.innerHTML += `
-                    <div class="card mx-4" style="width: 13rem; height: 20rem;" id="cardShop">
+                    <div class="card mx-4 cardShop" style="width: 13rem; height: 20rem;">
                         <div class="container-img">
                             <img src="${element.img}" class="figure-img img-fluid" style="width: 200px">
                         </div>

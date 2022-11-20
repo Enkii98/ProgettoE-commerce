@@ -220,7 +220,7 @@ nav.nav-shop {
 }
 
 
-#cardShop:hover {
+.cardShop:hover {
     transform: scale(1.1);
     transition-duration: 1s;
 
@@ -321,7 +321,7 @@ ul li {
     background-color: #f6f6f6;
 }
 
-#cardShop {
+.cardShop {
     margin-bottom: 40px;
 }
 
